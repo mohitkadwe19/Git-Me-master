@@ -1,4 +1,4 @@
-const baseURL = process.env.REACT_APP_API_URL || `https://api.github.com/users/` ;
+const baseURL =`https://api.github.com/users/`;
 
 export const getUserDetails = async (username) => {
     try {
